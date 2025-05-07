@@ -1,0 +1,17 @@
+name: pokemon
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.6.1
+
+# Add regular dependencies here.
+dependencies:
+  # path: ^1.8.0
+  mysql1: ^0.20.0 #Dependencia para conectar con la libreria mysql
+  http: ^0.13.3  # Nueva dependencia para hacer solicitudes HTTP
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
